@@ -76,7 +76,7 @@ section .sci {
 section .Bx2 {
   position: relative;
   padding-right: 200px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 section .Bx2 img {
   max-width: 800px;
