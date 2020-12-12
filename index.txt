@@ -8,7 +8,7 @@
    <link href="Post.css" rel="stylesheet" />
 
 <section>
- <embed name="GoodEnough" src="/music/good_enough.mp3" loop="false" hidden="true" autostart="true">
+ <embed name="GreatPretenderEnding" src="GreatPretenderEnding.mp3" loop="false" hidden="true" autostart="true">
 
     </div>
   </div>
