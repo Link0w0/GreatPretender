@@ -12,7 +12,7 @@ section {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-image: url("https://i.imgur.com/xbfdlU5.png");
+  background-image: url("https://i.imgur.com/NS2L3Ld.png");
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -55,13 +55,17 @@ section .content a:hover {
   transition: 0.3s;
 }
 section .imgBx {
-  position: relative;
+  position: absolute;
+  z-index: 2;
+  padding-right: 800px;
+  padding-bottom: 300px;
 }
 section .imgBx img {
-  max-width: 400px;
+  max-width: 300px;
   animation: fade-in 0.5s ease-in forwards;
-  animation-delay: 2s;
+  animation-delay: 3s;
   opacity: 0;
+    z-index: 2;
 }
 section .sci {
   position: absolute;
@@ -72,18 +76,32 @@ section .sci {
   animation-delay: 1s;
   opacity: 1;
 }
-
 section .Bx2 {
   position: relative;
-  padding-right: 200px;
-  padding-bottom: 90px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+   z-index: 1;
 }
 section .Bx2 img {
   max-width: 800px;
    animation: right-in 0.5s ease-in forwards, wobble-hor-bottom 10s infinite both;
+  animation-delay: 2s;
+  opacity: 0;
+    z-index: 1;
+}
+
+section .Bx3 {
+  position: absolute;
+  padding-left: 400px;
+  padding-bottom: 50px;
+}
+section .Bx3 img {
+  max-width: 1000px;
+   animation: right-in 0.5s ease-in forwards;
   animation-delay: 1s;
   opacity: 0;
 }
+
 
 section .sci li {
   list-style: none;
@@ -131,6 +149,7 @@ section .nav li a.active{
     opacity: 1;
   }
 }
+
 
 
 @keyframes left-in {
