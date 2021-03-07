@@ -1,3 +1,7 @@
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
 * {
   margin: 0;
   padding: 0;
