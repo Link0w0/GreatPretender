@@ -149,6 +149,7 @@ section .nav li a.active{
   }
 }
 
+
 @media (max-width: 991px) {
   .menu-icon {
     position: fixed;
